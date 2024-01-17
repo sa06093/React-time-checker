@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css" />
+        <title>Reaction time test</title>
+    </head>
+    <body>
+        <div id="click">
+            <!-- 전체 클릭 버튼 생성 -->
+            <div id="button"></div>
+
+            <!-- Message들 -->
+            <div id="messages">
+                <div id="startMessage">
+                    <div>Reaction Time Test</div>
+                    <div>When the red box turns green, click as quick as you can</div>
+                    <div>click anywhere to start</div>
+                </div>
+    
+                <div id="redMessage" style="display: none;">
+                    <div>···</div>
+                    <div>Wait for green</div>
+                </div>
+    
+                <div id="greenMessage" style="display: none;">
+                    <div>···</div>
+                    <div>Click!</div>
+                </div>
+    
+                <div id="timeMessage" style="display: none;">
+                    <div id="ms"></div>
+                    <div>Click to keep going.</div>
+                </div>
+    
+                <div id="errorMessage" style="display: none;">
+                    <div>Too Soon!</div>
+                    <div>Click to try again.</div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="score">
+            <div id="title1">
+                <div id="scoreTitle">Score</div>
+                <div id="best">Best: </div>
+                <div id="avg">Average: </div>
+            </div>
+            <div id="title2">- Can record up to 5 times</div>
+            <ol id="title3"></ol>
+            <button>Delete All</button>
+            <div id="developer">
+                <span> Developed by </span>
+                <a href="https://github.com/sa06093" target="_blank">Seungyeop</a>
+            </div>
+        </div>
+
+           
+        <script src="button.js"></script>
+    </body>
+</html>
