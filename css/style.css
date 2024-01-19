@@ -9,7 +9,7 @@ body {
   height: 100vh;
   font-family: Helvetica, Arial, sans-serif;
   color: white;
-  font-size: 10vh;
+  font-size: 4.5vw;
   background-color: #2b87d1;
   user-select: none;
 }
@@ -39,20 +39,20 @@ body {
   animation: fadeIn 0.5s ease-in-out forwards;
 }
 #click #messages #startMessage div:nth-child(2) {
-  font-size: 3vh;
+  font-size: 1.5vw;
   opacity: 0;
   animation: fadeIn 1s ease-in-out forwards;
 }
 #click #messages #startMessage div:last-child {
-  font-size: 3vh;
+  font-size: 1.5vw;
   opacity: 0;
   animation: fadeIn 1.5s ease-in-out forwards;
 }
 #click #messages #timeMessage div:last-child {
-  font-size: 3vh;
+  font-size: 1.5vw;
 }
 #click #messages #errorMessage div:last-child {
-  font-size: 3vh;
+  font-size: 1.5vw;
 }
 
 #score {
@@ -62,7 +62,7 @@ body {
   flex-direction: column;
 }
 #score #title1 {
-  font-size: 2vh;
+  font-size: 1.1vw;
   margin: 1vh 1vh 0 1vh;
   display: flex;
   flex-direction: column;
@@ -72,18 +72,20 @@ body {
   animation: fadeIn 2s ease-in-out forwards;
 }
 #score #title1 #scoreTitle {
-  font-size: 4vh;
+  font-size: 1.8vw;
   align-self: center;
   margin-bottom: 1vh;
 }
 #score #title1 #best {
-  margin-left: 3.37vh;
+  margin-left: 1.9vw;
   margin-bottom: 0.5vh;
 }
 #score #title2 {
   margin-top: 1vh;
   font-size: 0.7vw;
   align-self: center;
+  opacity: 0;
+  animation: fadeIn 2s ease-in-out forwards;
 }
 #score button {
   font-size: 0.8vw;
@@ -94,11 +96,15 @@ body {
   border-bottom: 1px solid white;
   background-color: transparent;
   margin-left: 1vw;
+  opacity: 0;
+  animation: fadeIn 2s ease-in-out forwards;
 }
 #score #title3 {
   margin-top: 1vh;
   margin-bottom: 0.5vh;
-  font-size: 2vh;
+  font-size: 1vw;
+  opacity: 0;
+  animation: fadeIn 2s ease-in-out forwards;
 }
 #score #developer {
   color: white;
